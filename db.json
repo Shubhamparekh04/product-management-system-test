@@ -1,0 +1,340 @@
+{
+  "Product": [
+    {
+      "id": "7a91",
+      "pName": "Classic White T-Shirt",
+      "stock": "50",
+      "price": "254",
+      "rating": "4",
+      "category": "Apparel",
+      "brand": "ComfortWear",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "A versatile and comfortable white t-shirt, perfect for everyday wear.",
+      "image": {
+        "name": "classic-white-tshirt.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/classic-white-tshirt.jpg"
+      }
+    },
+    {
+      "id": "2b3c",
+      "pName": "Bluetooth Headphones X200",
+      "stock": "120",
+      "price": "1299",
+      "rating": "5",
+      "category": "Electronics",
+      "brand": "SoundBliss",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Immersive sound and comfortable fit with noise-cancelling technology.",
+      "image": {
+        "name": "bluetooth-headphones-x200.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/bluetooth-headphones-x200.jpg"
+      }
+    },
+    {
+      "id": "4d5e",
+      "pName": "Organic Coffee Beans (500g)",
+      "stock": "80",
+      "price": "450",
+      "rating": "4",
+      "category": "Food & Beverage",
+      "brand": "MorningBrew",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Premium organic coffee beans for a rich and aromatic experience.",
+      "image": {
+        "name": "organic-coffee-beans.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/organic-coffee-beans.jpg"
+      }
+    },
+    {
+      "id": "6f7g",
+      "pName": "Stainless Steel Water Bottle",
+      "stock": "200",
+      "price": "300",
+      "rating": "4",
+      "category": "Home Goods",
+      "brand": "EcoSip",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Durable and eco-friendly water bottle, keeps drinks cold for hours.",
+      "image": {
+        "name": "stainless-steel-water-bottle.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/stainless-steel-water-bottle.jpg"
+      }
+    },
+    {
+      "id": "8h9i",
+      "pName": "Yoga Mat Pro",
+      "stock": "75",
+      "price": "800",
+      "rating": "5",
+      "category": "Sports & Outdoors",
+      "brand": "ZenFlex",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Non-slip and extra thick yoga mat for ultimate comfort and stability.",
+      "image": {
+        "name": "yoga-mat-pro.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/yoga-mat-pro.jpg"
+      }
+    },
+    {
+      "id": "1j2k",
+      "pName": "Smartphone Holder for Car",
+      "stock": "150",
+      "price": "350",
+      "rating": "3",
+      "category": "Automotive",
+      "brand": "DriveSafe",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Securely holds your smartphone for navigation and hands-free calls.",
+      "image": {
+        "name": "smartphone-holder.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/smartphone-holder.jpg"
+      }
+    },
+    {
+      "id": "3l4m",
+      "pName": "LED Desk Lamp with Wireless Charging",
+      "stock": "90",
+      "price": "1100",
+      "rating": "4",
+      "category": "Electronics",
+      "brand": "BrightSpace",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Modern desk lamp with adjustable brightness and built-in wireless charging.",
+      "image": {
+        "name": "led-desk-lamp.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/led-desk-lamp.jpg"
+      }
+    },
+    {
+      "id": "5n6o",
+      "pName": "Children's Story Book Set",
+      "stock": "60",
+      "price": "600",
+      "rating": "5",
+      "category": "Books",
+      "brand": "StoryTime",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "A collection of engaging and educational storybooks for young readers.",
+      "image": {
+        "name": "childrens-books.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/childrens-books.jpg"
+      }
+    },
+    {
+      "id": "7p8q",
+      "pName": "Portable Power Bank 10000mAh",
+      "stock": "180",
+      "price": "750",
+      "rating": "4",
+      "category": "Electronics",
+      "brand": "ChargeGo",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "High-capacity power bank for charging your devices on the go.",
+      "image": {
+        "name": "power-bank.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/power-bank.jpg"
+      }
+    },
+    {
+      "id": "9r0s",
+      "pName": "Ergonomic Office Chair",
+      "stock": "40",
+      "price": "5000",
+      "rating": "5",
+      "category": "Office Furniture",
+      "brand": "ErgoWork",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Designed for maximum comfort and support during long working hours.",
+      "image": {
+        "name": "ergonomic-chair.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/ergonomic-chair.jpg"
+      }
+    },
+    {
+      "id": "1t2u",
+      "pName": "Smart Home Security Camera",
+      "stock": "65",
+      "price": "2500",
+      "rating": "4",
+      "category": "Smart Home",
+      "brand": "Guardians",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Monitor your home with remote access and motion detection.",
+      "image": {
+        "name": "security-camera.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/security-camera.jpg"
+      }
+    },
+    {
+      "id": "3v4w",
+      "pName": "Men's Leather Wallet",
+      "stock": "100",
+      "price": "900",
+      "rating": "4",
+      "category": "Accessories",
+      "brand": "GentleCraft",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Stylish and durable genuine leather wallet with multiple card slots.",
+      "image": {
+        "name": "leather-wallet.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/leather-wallet.jpg"
+      }
+    },
+    {
+      "id": "5x6y",
+      "pName": "Fitness Tracker Smartwatch",
+      "stock": "110",
+      "price": "1800",
+      "rating": "5",
+      "category": "Wearables",
+      "brand": "ActivePulse",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Track your steps, heart rate, and sleep with this advanced smartwatch.",
+      "image": {
+        "name": "fitness-tracker.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/fitness-tracker.jpg"
+      }
+    },
+    {
+      "id": "7z8a",
+      "pName": "Portable Bluetooth Speaker",
+      "stock": "130",
+      "price": "1500",
+      "rating": "4",
+      "category": "Electronics",
+      "brand": "AudioBoom",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Powerful sound in a compact design, perfect for on-the-go music.",
+      "image": {
+        "name": "bluetooth-speaker.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/bluetooth-speaker.jpg"
+      }
+    },
+    {
+      "id": "9b0c",
+      "pName": "Gourmet Chocolate Assortment",
+      "stock": "95",
+      "price": "700",
+      "rating": "5",
+      "category": "Food & Beverage",
+      "brand": "SweetDelight",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "A luxurious selection of artisanal chocolates for the discerning palate.",
+      "image": {
+        "name": "chocolate-assortment.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/chocolate-assortment.jpg"
+      }
+    },
+    {
+      "id": "1d2e",
+      "pName": "Travel Backpack 30L",
+      "stock": "85",
+      "price": "1200",
+      "rating": "4",
+      "category": "Travel",
+      "brand": "Wanderlust",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Spacious and durable backpack, ideal for weekend trips and daily commutes.",
+      "image": {
+        "name": "travel-backpack.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/travel-backpack.jpg"
+      }
+    },
+    {
+      "id": "3f4g",
+      "pName": "Electric Kettle with Temperature Control",
+      "stock": "70",
+      "price": "950",
+      "rating": "4",
+      "category": "Kitchen Appliances",
+      "brand": "QuickBoil",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Boil water precisely for tea and coffee with adjustable temperature settings.",
+      "image": {
+        "name": "electric-kettle.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/electric-kettle.jpg"
+      }
+    },
+    {
+      "id": "5h6i",
+      "pName": "Pet Grooming Kit",
+      "stock": "55",
+      "price": "550",
+      "rating": "3",
+      "category": "Pet Supplies",
+      "brand": "HappyPaws",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Everything you need for a professional grooming session at home.",
+      "image": {
+        "name": "pet-grooming-kit.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/pet-grooming-kit.jpg"
+      }
+    },
+    {
+      "id": "7j8k",
+      "pName": "Noise-Cancelling Earbuds",
+      "stock": "160",
+      "price": "1999",
+      "rating": "5",
+      "category": "Electronics",
+      "brand": "QuietSound",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Experience crystal-clear audio with superior noise cancellation.",
+      "image": {
+        "name": "noise-cancelling-earbuds.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/noise-cancelling-earbuds.jpg"
+      }
+    },
+    {
+      "id": "9l0m",
+      "pName": "Gardening Tool Set",
+      "stock": "45",
+      "price": "700",
+      "rating": "4",
+      "category": "Home & Garden",
+      "brand": "GreenThumb",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "Essential tools for every gardening enthusiast, built for durability.",
+      "image": {
+        "name": "gardening-tools.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/gardening-tools.jpg"
+      }
+    },
+    {
+      "id": "1n2o",
+      "pName": "Wireless Gaming Mouse",
+      "stock": "90",
+      "price": "600",
+      "rating": "4",
+      "category": "Gaming",
+      "brand": "ProGamer",
+      "options": ["navsari", "surat", "rajkot"],
+      "content": "High-precision wireless mouse designed for competitive gaming.",
+      "image": {
+        "name": "gaming-mouse.jpg",
+        "type": "image/jpeg",
+        "url": "https://example.com/images/gaming-mouse.jpg"
+      }
+    }
+  ]
+}

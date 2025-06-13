@@ -1,0 +1,117 @@
+:root {
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', sans-serif;
+  line-height: 1.6;
+  font-weight: 450;
+  color-scheme: light dark;
+  color: #f0f0f0;
+  background-color: #1e1e2e;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: grid;
+  place-content: stretch;
+  background: radial-gradient(ellipse at bottom, #1e1e2e 0%, #12121a 100%);
+}
+
+.page-heading {
+  font-size: 2.8em;
+  line-height: 1.2;
+  font-weight: 700;
+  background: linear-gradient(90deg, #7fdbff, #ff7edb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 0.6em;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #7fdbff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ff7edb;
+  text-decoration-color: currentColor;
+  letter-spacing: 0.6px;
+}
+
+.action-button {
+  border-radius: 14px;
+  border: 2px solid rgba(127, 219, 255, 0.4);
+  padding: 0.9em 1.8em;
+  font-size: 1.1em;
+  font-weight: 600;
+  background-color: rgba(30, 30, 46, 0.8);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.action-button:hover {
+  border-color: #ff7edb;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 126, 219, 0.3);
+}
+
+.action-button:active {
+  transform: translateY(1px);
+}
+
+.action-button:focus-visible {
+  outline: 2px dashed #7fdbff;
+  outline-offset: 3px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #2e2e3e;
+    background-color: #f5f5ff;
+  }
+
+  body {
+    background: radial-gradient(ellipse at top, #f5f5ff 0%, #e0e0ff 100%);
+  }
+
+  .nav-link {
+    color: #0066cc;
+  }
+
+  .nav-link:hover {
+    color: #ff3366;
+  }
+
+  .page-heading {
+    background: linear-gradient(90deg, #0066cc, #ff3366);
+  }
+
+  .action-button {
+    background-color: rgba(245, 245, 255, 0.8);
+    border-color: rgba(0, 102, 204, 0.4);
+  }
+
+  .action-button:hover {
+    border-color: #ff3366;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-heading {
+    font-size: 2.2em;
+  }
+
+  .action-button {
+    padding: 0.7em 1.5em;
+  }
+}

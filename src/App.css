@@ -1,0 +1,342 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.breadcrumb-header {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.breadcrumb-header span:last-child {
+  font-weight: bold;
+  color: #333;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
+.sidebar {
+  flex: 0 0 250px; /* Fixed width for sidebar */
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-header h2 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.filter-section .filter-item {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.filter-section .filter-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.filter-section h3 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.brand-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advanced-link {
+  color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.brand-search input {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.brand-list label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.brand-list input[type="checkbox"] {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.brand-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.price-range-graph {
+  height: 60px; /* Placeholder for graph */
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.graph-placeholder {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, #c0e0ff 1px, transparent 1px);
+  background-size: 100% 10px;
+  position: relative;
+}
+.graph-placeholder::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%; /* Simulate bars */
+  background-color: #e0f0ff;
+  border-radius: 2px;
+  mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+}
+
+
+.price-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.price-inputs input {
+  width: calc(50% - 10px);
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.price-sliders {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 20px; /* Space for sliders */
+}
+
+.price-sliders .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  position: absolute;
+  left: 0;
+}
+
+.price-sliders .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+.size-options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust as needed */
+  gap: 8px;
+}
+
+.size-button {
+  padding: 8px 5px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+}
+
+.size-button:hover {
+  border-color: #007bff;
+}
+
+.color-options {
+  display: flex;
+  gap: 10px;
+}
+
+.color-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+.color-circle.black { background-color: black; }
+.color-circle.white { background-color: white; border: 1px solid #ccc; }
+.color-circle.red { background-color: red; }
+.color-circle.blue { background-color: blue; }
+.color-circle.green { background-color: green; }
+.color-circle.purple { background-color: purple; }
+.color-circle.gray { background-color: gray; }
+
+
+.product-grid-container {
+  flex: 1;
+}
+
+.product-grid-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.view-toggle button {
+  background: none;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.view-toggle button.active {
+  background-color: #eee;
+}
+
+.sort-by select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+}
+
+.product-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 250px; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+.brand-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.product-details {
+  padding: 10px 0;
+}
+
+.product-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.product-price {
+  font-size: 15px;
+  color: #e60023; /* Red color for price */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-stock {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Placeholder icons for grid/list view - you'd replace these with actual SVG or font icons */
+.grid-icon::before {
+  content: '☰'; /* Example Unicode character */
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.list-icon::before {
+  content: '⬜'; /* Example Unicode character */
+  font-size: 18px;
+  vertical-align: middle;
+}
